@@ -1,0 +1,20 @@
+
+.footer {
+    background-color:  rgba(0, 0, 0, 0.886);
+    color:  rgb(242, 200, 245);
+    height: 7em;
+    
+}
+
+.footer-container{
+     margin-top: 2%;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 30rem;
+    ;
+}

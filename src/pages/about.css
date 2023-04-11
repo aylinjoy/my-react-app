@@ -1,0 +1,75 @@
+
+
+.aboutcontainer {
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(156, 170, 182);
+    height: 500px;
+}
+
+.about {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-image: url(./coffeepic.jpg);
+    
+    
+
+}
+
+.description {
+    width: 800px;
+    margin-left: 150%;
+    margin-top: 5%;
+}
+
+.skills-courses {
+    display: flex;
+    flex-direction:row;
+    width:800px;
+    justify-content: space-between;
+    gap: 20rem;
+    margin-left: 0%;
+    color: aliceblue;
+    
+   
+}
+
+
+.skills {
+    width: 800px;
+    margin-top: 20%;
+    
+}
+
+.skills-title {
+    width: 200px;
+    height: 30px; 
+    text-align: center;
+    padding-bottom: 3%;
+    line-height: 0px;
+    border-radius: 25px;
+    border: 2px solid rgb(233, 180, 213);
+}
+
+.courses-title {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 0px;
+    padding-bottom: 3%;
+    border-radius: 25px;
+    border: 2px solid  rgb(233, 180, 213);
+   
+  
+
+}
+
+
+.courses {
+    width: 800px;
+    margin-top: 20%;
+}
