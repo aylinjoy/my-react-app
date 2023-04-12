@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-react-app.io/static/css/main.9b4173d4.css",
+    "main.js": "/my-react-app.io/static/js/main.7ed284f2.js",
+    "static/js/787.bc7d429a.chunk.js": "/my-react-app.io/static/js/787.bc7d429a.chunk.js",
+    "static/media/mycrescendo.png": "/my-react-app.io/static/media/mycrescendo.3994a422d4aade58ade3.png",
+    "static/media/ufosightings.png": "/my-react-app.io/static/media/ufosightings.5cd433543d826339cb63.png",
+    "static/media/visionboardcopy.jpeg": "/my-react-app.io/static/media/visionboardcopy.1614192e39791aa6070b.jpeg",
+    "static/media/hci.png": "/my-react-app.io/static/media/hci.13cc22a3e00f95d0f231.png",
+    "static/media/vrpic.png": "/my-react-app.io/static/media/vrpic.b20255201f8bccb3df49.png",
+    "static/media/vfsignin.png": "/my-react-app.io/static/media/vfsignin.f161d3ac78060b8b08f7.png",
+    "static/media/coffeepic.jpg": "/my-react-app.io/static/media/coffeepic.98f29bcbcf9cb363e476.jpg",
+    "index.html": "/my-react-app.io/index.html",
+    "main.9b4173d4.css.map": "/my-react-app.io/static/css/main.9b4173d4.css.map",
+    "main.7ed284f2.js.map": "/my-react-app.io/static/js/main.7ed284f2.js.map",
+    "787.bc7d429a.chunk.js.map": "/my-react-app.io/static/js/787.bc7d429a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b4173d4.css",
+    "static/js/main.7ed284f2.js"
+  ]
+}
