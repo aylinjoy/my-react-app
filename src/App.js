@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Design from "./pages/Design";
 import Design1 from "./pages/Design1";
+import { GiNestedHearts } from 'react-icons/fa';
 
 function App() {
   let Component
@@ -26,7 +27,8 @@ function App() {
   
     
   }
-  return (
+  return ( 
+  
     <div className='page-container'>
       <div className='content-wrap'>
     

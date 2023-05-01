@@ -1,9 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
 
 .aboutcontainer {
     display: flex;
     flex-direction:row;
-    background-color: rgb(156, 170, 182);
+    background-color: rgb(94, 102, 109);
     height: 500px;
 }
 
@@ -20,10 +22,19 @@
 
 }
 
-.description {
+.name1 {
     width: 800px;
     margin-left: 150%;
-    margin-top: 5%;
+    margin-top: 8%;
+    font-family: 'Iceberg', cursive;
+    font-size: large;
+    color:whitesmoke;
+}
+
+.description {
+    margin-left: 150%;
+    width: 800px;
+
 }
 
 .skills-courses {

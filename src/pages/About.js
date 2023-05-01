@@ -1,18 +1,25 @@
 import "./about.css";
+import { GiFlake } from 'react-icons/gi';
 
 export default function About() {
     return <div className="aboutcontainer">
         <div className="about">
-        <div className="description">
+        <div className="name1">
             <h1>Aylin Martinez</h1>
-            <h4>Education</h4>
+            
+        </div>
+
+        <div className="description">
+        
+            <h4><GiFlake size="12px" color="pink"  marginTop="3px"/>     Education</h4>
             Emory University, College of Arts & Sciences
-            <h4>Major</h4>
+            <h4><GiFlake size="12px" color="pink"  marginTop="3px"/>     Major</h4>
             BS, Computer Science;
             Architectural Design Minor
-            <h4>Anticipated Graduation</h4>
+            <h4><GiFlake size="12px" color="pink"  marginTop="3px"/>     Anticipated Graduation</h4>
             December 2023
         </div>
+       
     <div className="skills-courses">
         <div className="skills">
             <div className="skills-title">

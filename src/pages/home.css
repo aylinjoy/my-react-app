@@ -1,7 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 
+.decor {
+  display: flex;
+  margin-top: 7%;
+  margin-left: 7%;
+  flex-direction:row;
+}
 
+.decor2 {
+  display: inline-flex;
+  margin-top: 0%;
+  margin-left: 17%;
+  flex-direction:row;
 
+}
 .vision {
    
     background-image: url(./visionboardcopy.jpeg);
@@ -10,20 +23,20 @@
     height: 100vh;
     margin-left: 12%;
     margin-top: 5%;
+    
   }
 
 .name {
-    margin-left: 42%;
-    margin-top: 5%;
-    width: 200px;
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 600px;
     height: 30px; 
     justify-content: center;
     text-align: center;
-    padding-bottom: 1%;
     line-height: 0px;
-    border-radius: 25px;
-    border: 2px solid rgb(233, 180, 213);
     color:white;
+    font-family: 'Iceberg', cursive;
+    font-size: x-large;
 
 }
 
@@ -37,8 +50,6 @@
   color: rgb(128, 168, 203);
   height: 90px;
   width: auto;
-  border-top: solid;
-  border-bottom: solid;
   padding-top: 4px;
   padding-bottom: 50px;
 }
