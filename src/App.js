@@ -6,7 +6,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Design from "./pages/Design";
-import Design1 from "./pages/Design1";
+import withSplashScreen from './components/withSplashScreen';
+
 import { GiNestedHearts } from 'react-icons/fa';
 
 function App() {
@@ -21,20 +22,17 @@ function App() {
     case "/design":
       Component = Design
       break
-    case "/design1":
-      Component = Design1
-      break
   
     
   }
   return ( 
   
     <div className='page-container'>
+      
       <div className='content-wrap'>
-    
-     <Nav />
+    <Nav/>
     <Component />
-    </div>
+      </div>
     <Footer />
   
   
@@ -42,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default withSplashScreen(App); 

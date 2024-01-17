@@ -5,11 +5,10 @@ import "./Nav.css";
 export default function Nav() {
   return (
     <nav className="nav">
-     
-      <a href= "/" className="site-title">
-        AYLIN.JOY
-      </a>
-      <ul>
+    <ul>
+      <li>
+      <a href= "/"> Home </a>
+      </li>
         <li>
           <a href="/about"> About</a>
         </li>

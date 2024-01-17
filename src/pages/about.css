@@ -1,60 +1,89 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@300&family=Iceberg&family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Pixelify+Sans:wght@700&display=swap');
+
+.pagecontainer{
+    background-image: url(./greypinkbackground.svg);
+    height: 200vh;
+    background-size: cover;
+    
+}
 
 
 .aboutcontainer {
     display: flex;
     flex-direction:row;
-    background-color: rgb(94, 102, 109);
-    height: 500px;
+    height: 750px;
+    width: 550px;
+   
 }
 
 .about {
 
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    margin-left: 20%;
-    margin-top: 5%;
-    background-image: url(./coffeepic.jpg);
-    
-    
-
+    height: 350px;
+    width: 350px;
+    margin-left: 15%;
+    margin-top: 20%;
+    background-color: black;
 }
+.social{
+  margin-top: -100%;
+}
+
+
 
 .name1 {
     width: 800px;
     margin-left: 150%;
-    margin-top: 8%;
-    font-family: 'Iceberg', cursive;
-    font-size: large;
-    color:whitesmoke;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: x-large;
+    color:rgb(12, 12, 12);
+}
+
+.descriptiontitle {
+    margin-left: 150%;
+    width: 600px;
+    padding-top: 0;
+    color: rgb(21, 20, 21);
+    font-family: 'Krona One', sans-serif;
+    font-size: small;
+
 }
 
 .description {
     margin-left: 150%;
-    width: 800px;
+    width: 500px;
+    padding-top: 0;
+   
+    color: rgb(211, 105, 156);
+    font-family: 'Krona One', sans-serif;
+    font-size: small;
 
 }
 
-.skills-courses {
+.experience {
     display: flex;
-    flex-direction:row;
-    width:800px;
-    justify-content: space-between;
-    gap: 20rem;
-    margin-left: 0%;
-    color: aliceblue;
-    
+    flex-direction:column;
+    width: 600px;
+    text-align:left;
+    margin-top: 15%;
+    margin-left: 150%;
+    color: rgb(12, 12, 12);
+    font-family: 'Krona One', sans-serif;
+    font-size: x-small;
+
+
    
 }
 
+h3 {
+    color: rgb(211, 105, 156);
+  }
 
-.skills {
-    width: 800px;
-    margin-top: 20%;
-    
-}
+
+
 
 .skills-title {
     width: 200px;

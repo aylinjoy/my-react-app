@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Karla&display=swap');
 
 .nav {
-    background-color: rgba(0, 0, 0, 0.886);
-    color: rgb(242, 200, 245);
+    background-color: transparent;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -15,22 +14,22 @@
     margin: 5;
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .nav a {
-    color: inherit;
+    color:rgb(233, 176, 220);
     text-decoration: none;
-    font-family: 'Faster One', cursive;
+    font-family: 'Karla', sans-serif;
     font-size: larger;
 }
 
 .nav li.active {
-    background-color: aliceblue;
+    background-color: rgb(35, 123, 199);
 
 }
 
 .nav li:hover {
-    background-color: rgb(35, 5, 5);
+    background-color: rgb(69, 58, 58);
     
 }

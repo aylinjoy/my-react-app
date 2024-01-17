@@ -1,64 +1,113 @@
 import "./about.css";
 import { GiFlake } from 'react-icons/gi';
+import Button from '@mui/material/Button';
 
 export default function About() {
-    return <div className="aboutcontainer">
+    return <div className="pagecontainer">
+        <div className="aboutcontainer">
         <div className="about">
         <div className="name1">
-            <h1>Aylin Martinez</h1>
-            
+            <h1>AYLIN MARTINEZ</h1>     
+        </div>
+        
+        <div className="descriptiontitle">
+            <h4>     Graduated from Emory University, College of Arts & Sciences '23 </h4>
         </div>
 
         <div className="description">
-        
-            <h4><GiFlake size="12px" color="pink"  marginTop="3px"/>     Education</h4>
-            Emory University, College of Arts & Sciences
-            <h4><GiFlake size="12px" color="pink"  marginTop="3px"/>     Major</h4>
-            BS, Computer Science;
-            Architectural Design Minor
-            <h4><GiFlake size="12px" color="pink"  marginTop="3px"/>     Anticipated Graduation</h4>
-            December 2023
+            <h4>Computer Science Major, Architectural Design Minor</h4>
         </div>
-       
-    <div className="skills-courses">
-        <div className="skills">
-            <div className="skills-title">
-            <h3>Skills</h3>
-            </div>
-            <p>Spanish (Fluent)</p>
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>        
-            <p>Python</p>
-            <p>C</p>
-            <p>MS Office</p>
-            <p>Adobe Photoshop</p>
-            <p>Wix</p>
-            <p>Canva</p>
-            <p>Figma</p>
-            <p>Rhino</p>
-            <p>AutoCAD</p>
-            
-    </div>
 
-        <div className="courses">
-            <div className="courses-title">
-            <h3>Relevant Courses</h3>
-            </div>
-            <p>-----------------------------------------</p>
-            <p> Human Computer Interaction</p>
-            <p>Systems Programming</p>
-            <p>Foundations of Computer Science</p>
-            <p>Data Structures and Algorithms</p>
-            <p>Computer Architecture</p>
-            <p>Machine Level Programming</p>
-            <p>Analysis of Algorithms</p>
-            <p>Artificial Intelligence</p>
-            <p>Computer Science Practicum</p>
-            <p>Introduction to Graphics & CAD</p>
-            <p>Art Visuals- Drawing & Painting</p>
-            <p>Art History- Art Culture</p>
+        <div className="experience">
+            <h1>Experience</h1>
+            <Button href="https://www.mycrescendo.org/" variant="text"
+            sx={{
+                width: 200,
+                textAlign: 'center',
+                borderRadius: 2,
+                border: 1,   
+                borderColor:'black',
+                fontWeight: '',
+                backgroundColor: 'none',
+                color: 'rgb(211, 105, 156)',
+                textTransform: 'none',
+                marginTop: 5,
+              }}
+            >My Crescendo, LLC</Button>
+            <p>Designed and managed the website for an association focused on enhancing professional development for Uplift Williams Preparatory High School Junior and Senior scholars. Improved user experience and aesthetics, while also offering recommendations for leading, mentoring, and recruiting professional mentors and scholar participants through digital media.</p>
+
+            <Button href="https://github.com/josephpogue/AffirmationsApp.git" variant="text"
+            sx={{
+                width: 200,
+                textAlign: 'center',
+                borderRadius: 2,
+                border: 1,   
+                borderColor:'black',
+                fontWeight: '',
+                backgroundColor: 'none',
+                color: 'rgb(211, 105, 156)',
+                textTransform: 'none',
+                marginTop: 5,
+              }}
+            >Affirmations App</Button>
+            <p>Collaborated with client to design UI features and the overall appearance of an application. Played a key role in implementing code for a motivational software app enabling users to record affirmations, thoughts, and mantras, contributing to the goal of inspiring and motivating individuals.</p>
+
+            <Button href="https://github.com/iwahju/virtualFridge.git" variant="text"
+            sx={{
+                width: 200,
+                textAlign: 'center',
+                borderRadius: 2,
+                border: 1,   
+                borderColor:'black',
+                fontWeight: '',
+                backgroundColor: 'none',
+                color: 'rgb(211, 105, 156)',
+                textTransform: 'none',
+                marginTop: 5,
+              }}
+            >Virtual Fridge</Button>
+            <p>Created a website aimed at reducing food waste by enabling users to track and receive reminders for purchased ingredients. Developed the interface using React, Java, HTML, and CSS, allowing users to compile grocery lists and receive recipe recommendations. Actively sought and incorporated feedback from teammates to enhance user experience and aesthetics.</p>
         </div>
+     
+        
+        
+
+        <div className="social">
+            <Button href="https://www.linkedin.com/in/aylin-martinez-461a45134/" variant="text"
+            sx={{
+                width: 350,
+                textAlign: 'center',
+                border: 1,   
+                borderRadius: 0,
+                fontWeight: 'bold',
+                backgroundColor: 'grey',
+                color: 'black',
+                borderColor: 'black',
+                textTransform: 'uppercase',
+              }}
+            >LinkedIn</Button>
+
+        <Button href="https://docs.google.com/document/d/1X7718Wbdyh-SFyvd64fvXBu2OGBuFQkihpC_i88Lu2Y/edit" variant="text"
+            sx={{
+                width: 350,
+                marginTop: 3,
+                textAlign: 'center',
+                border: 1,   
+                borderRadius: 0,
+                fontWeight: 'bold',
+                backgroundColor: 'rgb(211, 105, 156)',
+                color: 'black',
+                borderColor: 'black',
+                textTransform:'uppercase',
+               
+              }}
+            >Resume</Button>
+            </div>
+
+        
+            
+       
+    
         </div>
         </div> 
 

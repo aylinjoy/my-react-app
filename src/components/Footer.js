@@ -38,7 +38,6 @@ export default function Footer() {
             >Github</Button>
                 </div>
 
-
             </div>
         </div>
     </div>

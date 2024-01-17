@@ -9,46 +9,24 @@ import { GiSpikes } from 'react-icons/gi';
 export default function Home() {
     return(
 <div className="wrap">
-    <div className="decor">
-    <GiFlake size="30px" color="white"/>
-    <GiFlake color="pink"/>
-    </div>
-    <div className="decor2">
-    <hr
-        style = {{
-            width:"450px",
-            marginTop:"3%",
 
-        }}
-    />
-    <GiFlake size="20px" color="pink" left="-30px" marginTop="3px"/>
-    <hr
-        style = {{
-            width:"450px",
-            marginTop:"3%",
-
-        }}
-    />
+    <div className="intro">
+      <h1> Hi, I'm AYLIN </h1>
     </div>
-    <div className="name">
+
+    <div className="introdescription">
+    <p>Recent Computer Science graduate seeking to merge my interests in graphic and visual</p>
+    <p> design through my technical and artistic skills. I am a creative and detail-oriented student</p>    
+    <p> with a passion for aesthetics eager to gain knowledge & experience in User Interface Design. </p>
+    </div>
+
+<div className="visiontitle">
+      <h1> 2024 Vision Board </h1>
+</div>
+
+
+<div className="vision"></div>
     
-        <h1>Hi, I'm Aylin</h1>
-    </div>
-
-
-    <div className="introduction">
-        <p>Soon-to-be Computer Science graduate seeking to merge my interests in graphic and visual design</p>
-        <p>    through my technical and artistic skills. I am a creative and detail-oriented student with a passion for</p>
-        <p>    aesthetics eager to gain knowledge & experience in User Interface Design. </p>
-    </div>
-    <div className="name">
-        <h4>2023 Vision Board</h4>
-        <GiFlake size="15px" color="pink" left="-30px" />
-        <GiFlake size="15px" color="pink" left="-30px" />
-        <GiFlake size="15px" color="pink" left="-30px"/>
-    </div>
-    <div className= "vision">
-    </div>
 </div>
 
     )  
