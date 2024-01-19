@@ -25,7 +25,11 @@ export default function Home() {
 </div>
 
 
-<div className="vision"></div>
+<div className="vision">
+    <div className="board">
+        
+    </div>
+</div>
     
 </div>
 

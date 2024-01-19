@@ -6,8 +6,7 @@
 .wrap{
   background-image: url(./greypinkbackground.svg);
   height: 180vh;
-  background-position: center;
-  background-repeat: repeat-y;
+  
   
 }
 
@@ -41,11 +40,19 @@
 
 .vision {
    
+    background-color: aqua;
+    display: block;
+    position: relative;
+   
+}
+
+.board {
     background-image: url(./visionboard1.jpeg);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-repeat: no-repeat;
-    justify-content: center;
-    height: 90vh;
-    width: 90;
-    margin-left: 10%;
-    margin-top: 6%;
   }
+
+

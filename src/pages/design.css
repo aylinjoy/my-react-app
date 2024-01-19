@@ -92,7 +92,7 @@
 .boxgrid {
   display: flex;
   flex-direction:row;
-  margin-bottom: 5%;
+  margin: auto;
   
 
 }
