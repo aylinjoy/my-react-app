@@ -14,22 +14,23 @@ export default function Home() {
       <h1> Hi, I'm AYLIN </h1>
     </div>
 
-    <div className="introdescription">
+    <div class="introdescription">
     <p>Recent Computer Science graduate seeking to merge my interests in graphic and visual</p>
-    <p> design through my technical and artistic skills. I am a creative and detail-oriented student</p>    
-    <p> with a passion for aesthetics eager to gain knowledge & experience in User Interface Design. </p>
+    <p> design through my technical and artistic skills. I am a creative and detail-oriented student  </p>   
+    <p>with a passion for aesthetics eager to gain knowledge & experience in User Interface Design.</p>
     </div>
 
-<div className="visiontitle">
-      <h1> 2024 Vision Board </h1>
+
+
+<div className="palette">
+    <div className="square"></div>
+    <div className="square"></div>
+    <div className="square"></div>
+    <div className="square"></div>
 </div>
 
 
-<div className="vision">
-    <div className="board">
-        
-    </div>
-</div>
+    <div className="board"></div>
     
 </div>
 

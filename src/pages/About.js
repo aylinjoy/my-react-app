@@ -4,11 +4,50 @@ import Button from '@mui/material/Button';
 
 export default function About() {
     return <div className="pagecontainer">
+        
+        
         <div className="aboutcontainer">
-        <div className="about">
-        <div className="name1">
+          <div className="picture"></div>
+
+            <div className="social">
+                <Button href="https://www.linkedin.com/in/aylin-martinez-461a45134/" variant="text"
+                sx={{
+                    width: 350,
+                    marginTop: 5,
+                    textAlign: 'center',
+                    border: 1,   
+                    borderRadius: 0,
+                    fontWeight: 'bold',
+                    backgroundColor: 'grey',
+                    color: 'black',
+                    borderColor: 'black',
+                    textTransform: 'uppercase',
+                  }}
+                >LinkedIn</Button>
+
+            <Button href="https://docs.google.com/document/d/1X7718Wbdyh-SFyvd64fvXBu2OGBuFQkihpC_i88Lu2Y/edit" variant="text"
+                sx={{
+                    width: 350,
+                    marginTop: 3,
+                    textAlign: 'center',
+                    border: 1,   
+                    borderRadius: 0,
+                    fontWeight: 'bold',
+                    backgroundColor: 'rgb(211, 105, 156)',
+                    color: 'black',
+                    borderColor: 'black',
+                    textTransform:'uppercase',
+                  
+                  }}
+                >Resume</Button>
+                </div>
+
+          </div>
+
+        <div className="textcontainer">
+          <div className="name1">
             <h1>AYLIN MARTINEZ</h1>     
-        </div>
+          </div>
         
         <div className="descriptiontitle">
             <h4>     Graduated from Emory University, College of Arts & Sciences '23 </h4>
@@ -72,47 +111,14 @@ export default function About() {
         
         
 
-        <div className="social">
-            <Button href="https://www.linkedin.com/in/aylin-martinez-461a45134/" variant="text"
-            sx={{
-                width: 350,
-                textAlign: 'center',
-                border: 1,   
-                borderRadius: 0,
-                fontWeight: 'bold',
-                backgroundColor: 'grey',
-                color: 'black',
-                borderColor: 'black',
-                textTransform: 'uppercase',
-              }}
-            >LinkedIn</Button>
-
-        <Button href="https://docs.google.com/document/d/1X7718Wbdyh-SFyvd64fvXBu2OGBuFQkihpC_i88Lu2Y/edit" variant="text"
-            sx={{
-                width: 350,
-                marginTop: 3,
-                textAlign: 'center',
-                border: 1,   
-                borderRadius: 0,
-                fontWeight: 'bold',
-                backgroundColor: 'rgb(211, 105, 156)',
-                color: 'black',
-                borderColor: 'black',
-                textTransform:'uppercase',
-               
-              }}
-            >Resume</Button>
-            </div>
-
+        
         
             
-       
+            </div>
     
         </div>
-        </div> 
 
         
     
-     </div>
     
 }

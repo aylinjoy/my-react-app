@@ -12,13 +12,6 @@
     
 }
 
-.decor3 {
-  display: inline-flex;
-  margin-top: 8%;
-  margin-left: 23%;
-  flex-direction:row;
-}
-
 
 .header {
   text-align:center;
@@ -32,31 +25,7 @@
   
 }
 
-.header12 {
-  text-align:center;
-  font-size: x-large;
-  font-family: 'Italiana', sans-serif;
-  justify-content: center;
-  color: #f5f4f7ea;
-  height: 90px;
-  width: auto;
-  margin-top: 15%;
-  
-}
 
-
-.header2 {
-  text-align:center;
-  font-family: 'Italiana', sans-serif;
-  font-size: large;
-  justify-content: center;
-  color:rgb(37, 36, 36);
-  height: 90px;
-  width: auto;
-  
-  padding-top: 4px;
-
-}
 
 .sub {
   color: rgb(36, 40, 44);
@@ -92,13 +61,12 @@
 .boxgrid {
   display: flex;
   flex-direction:row;
+  justify-content: center;
   margin: auto;
-  background-color: aqua;
-  top: 50%;
-  left: 50%;
 }
 
 .box {
+  display: flex;
     height: 250px;
     width: 300px;
     border-radius: 0%;
@@ -107,7 +75,6 @@
     background-size: 140%;
     background-position: 50%;
     background-repeat: no-repeat;
-    margin-left: 8%;
     margin-top: 5%;
     
 
@@ -162,7 +129,6 @@
   background-position: 50%;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-left: 8%;
   margin-top: 5%;
 
 }
